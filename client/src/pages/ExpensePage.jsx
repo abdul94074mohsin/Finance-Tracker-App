@@ -1,6 +1,6 @@
 import { Plus, Wallet, TrendingDown, BarChart3 } from 'lucide-react';
 import ExpenseSummaryCard from '../components/expense/ExpenseSummaryCard';
-import ExpenseCard from '../components/expense/expenseCard';
+import ExpenseCard from '../components/expense/ExpenseCard';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getExpense } from '../feature/expense/expenseSlice';
