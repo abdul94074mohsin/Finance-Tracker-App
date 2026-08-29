@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/api' : {
-        target : "http://localhost:8080/",
+      '/api': {
+        target: "https://finance-tracker-app-ak5m.onrender.com",
         changeOrigin: true,
         secure: false
       }
